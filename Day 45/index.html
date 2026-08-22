@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSITION</title>
+    <style>
+.container{
+    background-color: aqua;
+    width: 50vw;
+
+    height: 70vh;
+}
+.box{
+    /* transform ki properties kis tarah aur kitni der me apply hongi ye transition ki properties define karti h aur transform ko inspect me tick aur untick karke humlog transitions ki properties dekh sakte hai */
+    
+    /* yaha transition property me humlog ya to transform use kar le ya to all lagane par ye sari transition properties par apply ho jaega  */
+    /* agar ek se jyada properties use karna ho to comma use karke multiple properties use kar sakte hai */
+    transition-property: all;
+    transition-duration: 5s;
+    /* agar transition/animation apne hisab se chaiye to inspect karke ease in out par click karo aur waha se cubic breazer ka code copy karke ease in out ki jagah daal do */
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    /* agar sab kuch ek sath likhna ho to jsut transiton:all 3s ease in out 1s; kuch is tarah se kar sakte hai */
+    background-color: red;
+    width: 10vw;
+    height: 10vh;
+}
+.translate{
+    transform: translateX(10vw) translateY(10vh) scale(1.5)   ;
+background-color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate">
+
+        </div>
+    </div>
+</body>
+</html>

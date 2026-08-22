@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS GRID</title>
+    <style>
+      .container {
+
+        /* agar humko 1fr ko 5 baar repeat karna hai to hum repeat use karenge */
+        grid-template-rows: repeat(5,1fr);
+        /* grid-template-columns: repeat(5,1fr); */
+        border: 2px solid black;
+        display: grid;
+        grid-template-areas:
+          "nav nav nav"
+          "box empty empty"
+          "footer footer footer";
+      }
+      .item {
+    
+    border: 2px solid darkgreen;
+        /* width: 30px; */
+        height: 30px;
+      }
+      .item1 {
+        background-color: aqua;
+        grid-area: nav;
+    }
+    .item2 {
+        background-color: yellow;
+        
+        grid-area: box;
+    }
+    .item3 {
+          background-color:  rgb(5, 64, 228);
+          grid-area: empty;
+        }
+        .item4 {
+            background-color: orangered;
+            grid-area: footer;
+        }
+        .item5 {
+          background-color:chartreuse;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="item item1">1</div>
+      <div class="item item2">2</div>
+      <div class="item item3">3</div>
+      <div class="item item4">4</div>
+      <div class="item item5">5</div>
+    </main>
+  </body>
+</html>

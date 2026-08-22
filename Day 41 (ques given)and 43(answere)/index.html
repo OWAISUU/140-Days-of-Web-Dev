@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXERCISE 6 MAKING A NAV BAR USING FLEXBOX</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sekuya&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-around;
+
+        align-items: center;
+        padding: 20px 10px;
+        border: 1.5px solid red;
+        margin: 4px 5px;
+        background-color: rgb(237, 241, 1);
+      }
+      li {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        padding: 0px 10px;
+        text-shadow: 3px 3px 5px rgb(231, 96, 6);
+        margin: 10px;
+      }
+      ul li {
+        text-shadow: 50px;
+        /* text-decoration-line:underline; */
+        text-decoration-color: brown;
+        list-style: none;
+      }
+      ul {
+        justify-content: end;
+
+        display: flex;
+      }
+      ul li a {
+        font-size: 2rem;
+        color: rgb(255, 2, 2);
+        text-decoration: none;
+      }
+      .image {
+        border: 1.5px solid black;
+
+        justify-content: start;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <div class="image">
+          <img src="ultraedit logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="/">products</a></li>
+          <li><a href="/">pricing</a></li>
+          <li><a href="/">resources</a></li>
+          <li><a href="/">about us</a></li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

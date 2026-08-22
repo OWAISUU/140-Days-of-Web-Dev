@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOAT and CLEAR</title>
+    <style>
+        .card {
+            border:2px solid blueviolet;
+            font-size: 30px;
+        }
+        .cards{
+            border: 2px solid red;
+            display: flow-root;
+        }
+        img{
+            width: 500px;
+            height: 700px;
+            float: both;
+            /* float: left; */
+            /* float: right; */
+        }   
+        .card:nth-child(3){
+            clear: right;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="Funny-Download-PNG-Image.png" alt="image" width="200" height="300" border="2px solid black">
+        
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minus dolores possimus nam, architecto ipsa? Quia sunt harum eum odit magni explicabo necessitatibus exercitationem labore nemo, qui cupidvelit non distinctio debitis voluptatem aspernatur minima veritatis nesciunt? Dolor et, asperiores vitae placeat officia numquam ut ipsa. Cumque ares quam nesciunt quasi est quo qui veniam repellendus ducimus necessitatibus in labore cumque voluptate pariatur nostrum voluptas? Similique nesciunt, natus architecto reprehenderit rem ut. Velit dolor repudiandae ipsum est nihil nobis, et sequi omnis voluptates aliquam fuga. Voluptatum illum, in culpa eum similique earum, ducimus delectus error vel reiciendis et vitae nam adipisci veniam, eaque facere neque. Voluptas optio aspernatur labore quae cum odit similique dolorum iure alias sit vero reiciendis nesciunt quasi vel, quisquam fuga accusantium consectetur exercitationem sapiente! Accusamus fuga quos magnam ipsum, corporis iusto nisi maxime quod iste consectetur! Provident, quo. ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam placeat, natus consequuntur numquam blanditiis repellat quasi libero non vitae! Eum saepe expedita accusamus minima rem totam modi, reprehenderit reiciendis cupiditate quis asperiores aut atque!</div>
+        <div class="card">card 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis repellat magni tenetur provident, doloremque consectetur veniam quas suscipit dolore sed doloribus praesentium, non corporis tempore animi nostrum? Autem mollitia amet esse. Excepturi, quaerat itaque.</div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object fit and position</title>
+    <style>
+        .container {
+
+            width: 250px;
+            height: 200px;
+            border: 2px solid black;
+
+        }
+
+        img {
+            width: 250px;
+            height: 200px;
+            /* object-fit lagane par img me jitni height aur width hoti h wo use cover kar lega  */
+            /* object-fit: cover; */
+            /* position contain lagane par wo image ko uske container ke height aur width ke hisab se le lega */
+            object-fit: contain;
+            /* object-position: bottom left; */
+            /* object-fit: fill; */
+            /* object-fit: scale-down; */
+            object-position: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="istockphoto-814423752-2048x2048.jpg" alt="image">
+    </div>
+</body>
+
+</html>

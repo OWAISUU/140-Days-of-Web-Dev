@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sekuya&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px 10px;
+  border: 1.5px solid red;
+
+  background-color: rgb(237, 237, 5);
+}
+li {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding: 0px 10px;
+  text-shadow: 3px 3px 5px rgb(231, 96, 6);
+  margin: 10px;
+}
+ul li {
+  text-shadow: 50px;
+  /* text-decoration-line:underline; */
+  text-decoration-color: brown;
+  list-style: none;
+}
+ul {
+  justify-content: end;
+
+  display: flex;
+}
+ul li a {
+  font-size: 2rem;
+  color: rgb(255, 2, 2);
+  text-decoration: none;
+}
+.image {
+  border: 1.5px solid black;
+
+  justify-content: start;
+  display: flex;
+}
+.content {
+  padding: 30px;
+  height: 20vh;
+  margin: 30px 50px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.heading {
+  font-family: monospace;
+  font-size: 30px;
+}
+.button {
+  letter-spacing: 2px;
+  width: 10vw;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(213, 215, 138);
+  border: 0.6px solid black;
+}
+
+.para {
+  font-family: fantasy;
+  width: 45vw;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0px;
+}
+.grid {
+  margin: auto;
+  /* position: relative; */
+  /* left: 425px; */
+  /* border: 1px solid red; */
+  width: fit-content;
+  /* height: 70vh; */
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+
+  align-items: center;
+}
+.btngreen {
+  border: 0.5px solid rgb(176, 221, 176);
+  border-radius: 6px;
+  padding: 8px 5px;
+  background-color: rgb(105, 193, 105);
+}
+.btnblue {
+  background-color: #3da0af;
+  border: 0.5px solid rgb(154, 226, 232);
+  border-radius: 6px;
+  padding: 8px 5px;
+  /* background-color: grey; */
+}
+.btnblue a {
+  text-decoration: none;
+  color: white;
+}
+.btngreen a {
+  color: white;
+  text-decoration: none;
+}
+.item {
+  border-radius: 10px;
+  width: 16vw;
+  margin: 20px;
+  justify-items: center;
+  background-color: whitesmoke;
+}
+.item-lang {
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.btn {
+  margin: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    background-color: red;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+    background-color: yellow;
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FILTERS</title>
+    <style>
+      
+        .img1{
+            filter: contrast(20);
+            border: 10px solid black;
+            /* yaha par agar greyscale ki jagah hum sepia likh de to color thoda sa purane jamane wale camera jaisa ho jaega */
+            filter: sepia(90%);
+        }
+        .img2{
+            border: 10px solid black ;
+            /* humlog ek se jyada filters laga sakte h space deke */
+            filter: blur(3px) brightness(3);
+            filter: grayscale(50%);
+            
+        }
+        .img3{
+            filter: brightness(3);
+            border: 10px solid black;
+/* drop shadow karne se shadow effect aajata hai  */
+            filter: drop-shadow(16px 16px 20px red) invert(50) ;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="faizanjpg.jpg" alt="faizan image">
+        <img class="img2" src="PIC.jpeg" alt="owais image">
+        <img class="img3" src="coding-at-night-stockcake.jpg " alt="coding image">
+    </div>
+</body>
+</html>
