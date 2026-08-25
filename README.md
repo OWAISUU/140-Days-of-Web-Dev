@@ -1,4 +1,4 @@
-# 🚀 100 Days of Web Development Journey
+# 🚀 140 Days of Web Development Journey
 
 Sigma Web Development batch progress tracking repository. Updating daily as I build my foundation in Full Stack Web Development and Backend Systems.
 
