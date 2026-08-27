@@ -1,4 +1,7 @@
+
 # 🚀 140 Days of Web Development Journey
+
+
 
 Sigma Web Development batch progress tracking repository. Updating daily as I build my foundation in Full Stack Web Development and Backend Systems.
 
@@ -19,7 +22,9 @@ Sigma Web Development batch progress tracking repository. Updating daily as I bu
 | **Day 11** | CSS Selectors | Class, ID, Universal & Pseudo-class selectors | ✅ Done |
 | **Day 12** | CSS Box Model | Margin, Border, Padding, and Content area | ✅ Done |
 | **Day 13** | CSS Colors & Backgrounds | Hex, RGB, HSL, Background image properties | ✅ Done |
-| **Day 14** | CSS Fonts & Typography | Web fonts, Font-family, Line-height | ⏳ In Progress |
+| **Day 14** | CSS Fonts & Typography | Web fonts, Font-family, Line-height | ✅ Done |
+| **Day 15** | CSS Sizing & Units | `px`, `rem`, `em`, `%`, `vh`, `vw` & Dimensions | ✅ Done |
+| **Day 16** | CSS Display & Visibility | Display block, inline, inline-block, none vs hidden | ⏳ In Progress |
 
 ## 🛠️ Current Tech Stack
 - **Frontend:** HTML5, CSS3
