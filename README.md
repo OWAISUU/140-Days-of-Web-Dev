@@ -25,7 +25,8 @@ Sigma Web Development batch progress tracking repository. Updating daily as I bu
 | **Day 14** | CSS Fonts & Typography | Web fonts, Font-family, Line-height | ✅ Done |
 | **Day 15** | CSS Sizing & Units | `px`, `rem`, `em`, `%`, `vh`, `vw` & Dimensions | ✅ Done |
 | **Day 16** | CSS Display & Visibility | Display block, inline, inline-block, none vs hidden | ✅ Done |
-| **Day 17** | CSS Positions | `static`, `relative`, `absolute`, `fixed`, `sticky` & `z-index` | ⏳ In Progress |
+| **Day 17** | CSS Positions | `static`, `relative`, `absolute`, `fixed`, `sticky` & `z-index` | ✅ Done |
+| **Day 18** | CSS Specificity & Cascade | Specificity calculation, Cascade algorithm, `!important` rule | ⏳ In Progress |
 
 ## 🛠️ Current Tech Stack
 - **Frontend:** HTML5, CSS3
