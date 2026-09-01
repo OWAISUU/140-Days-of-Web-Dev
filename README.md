@@ -28,7 +28,8 @@ Sigma Web Development batch progress tracking repository. Updating daily as I bu
 | **Day 17** | CSS Positions | `static`, `relative`, `absolute`, `fixed`, `sticky` & `z-index` | |
 | **Day 18** | CSS Specificity & Cascade | Specificity calculation, Cascade algorithm, `!important` rule | ✅ Done  |
 | **Day 19** | CSS Colors & Specificity Exercise | CSS Exercise practice & specificity implementation | ✅ Done |
-| **Day 20** | CSS Exercise 2 Challenge | Building layouts using CSS Box model & Positioning | ⏳ In Progress |
+| **Day 20** | CSS Exercise 2 Challenge | Building layouts using CSS Box model & Positioning | ✅ Done |
+| **Day 21** | CSS Specificity & Calculation | Inline styles vs IDs vs Classes, Specificity hierarchy | ⏳ In Progress |
 
 ## 🛠️ Current Tech Stack
 - **Frontend:** HTML5, CSS3
