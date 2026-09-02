@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 21</title>
+    <style>
+      h1 {
+        color: brown;
+      }
+      /* niche teen ek hi tarah ke selector h to yaha pe cascade rule ke hisab se jo slector sabse baad me ya sabse niche hoga wohi apply hojayega */
+      /* important tag acha ha aur jaroori h to iska example niche cred wale class me laga h  */
+      /* the specificity of this selector is 10 */
+      .yellow {
+        color: yellow;
+      }
+      /* the specificity of this selector is 10 */
+      .cred {
+        color: red;
+        /* color: maroon !important; */
+        /* the specificity of this selector is 10+1=11 because of h1 it adds the value of 1 and high specificity hone ki wajah se yehi apply hoga */
+      }
+      h1.caqua {
+        color: aqua;
+        /* the specificity of this selector is 10 */
+      }
+      [data-x="a"] {
+        background-color: rgb(15, 72, 194);
+      }
+      /* the specificity of this below will be 1 for a + 10 for harryclass+10 for owais class + 10 for href +10  for hover which equals to 41 */
+      /* a.harryclass.owais-class[href]:hover{
+        color: chocolate    ; */
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="yellow cred caqua" data-x="a">
+        CSS SPECIFITY(CASCADE ALGORITHM)
+      </h1>
+      <!-- ATTRIBUTE SELECTOR  upar data-x=a yehi attribute selector h-->
+    </div>
+  </body>
+</html>
