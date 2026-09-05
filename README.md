@@ -32,7 +32,8 @@ Sigma Web Development batch progress tracking repository. Updating daily as I bu
 | **Day 21** | CSS Specificity & Calculation | Inline styles vs IDs vs Classes, Specificity hierarchy | ✅ Done  |
 | **Day 22** | CSS Sizing Units & Viewport Units | Practical layout sizing with `rem`, `em`, `vh`, `vw`, `vmin`, `vmax` | ✅ Done |
 | **Day 23** | CSS Overflow & Text Truncation | `overflow: visible`, `hidden`, `scroll`, `auto`, `text-overflow: ellipsis` | ✅ Done |
-| **Day 24** | CSS Shadows & Outlines | `box-shadow`, `text-shadow`, `outline` vs `border` properties | ⏳ In Progress |
+| **Day 24** | CSS Shadows & Outlines | `box-shadow`, `text-shadow`, `outline` vs `border` properties | ✅ Done |
+| **Day 25** | CSS Styling Lists & Tables | Custom list markers, table borders, collapsed borders & cell spacing | ⏳ In Progress |
 
 ## 🛠️ Current Tech Stack
 - **Frontend:** HTML5, CSS3
